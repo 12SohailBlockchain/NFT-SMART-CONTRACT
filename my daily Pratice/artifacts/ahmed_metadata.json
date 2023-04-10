@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"my daily Pratice/Hellow.sol": "ahmed"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"my daily Pratice/Hellow.sol": {
+			"keccak256": "0xb0e334018f58e9b48a6ba26fde3d5eeefafc0eab9f1e2c9ba4dfdd92340b6f16",
+			"urls": [
+				"bzz-raw://d4da54c46ed18c23fd101f7def5753d82281b534b28f9f7f7eeb08550185e5c7",
+				"dweb:/ipfs/QmVdxuuqbSVbC9VYh9EXSx4NCAWK3M7S35RfU8nWWsKqef"
+			]
+		}
+	},
+	"version": 1
+}

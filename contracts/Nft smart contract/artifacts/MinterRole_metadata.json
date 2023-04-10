@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "MinterAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "MinterRemoved",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addMinter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isMinter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceMinter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Nft smart contract/MinterRole.sol": "MinterRole"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Nft smart contract/MinterRole.sol": {
+			"keccak256": "0x4ba98c8945d0a13ce98876a68b564500d70e5df9c10a84ea2fd616366904cfbc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6eca60c477d747b5136206a0832c3a75c5ef44e7cc09e5617608e4140123c646",
+				"dweb:/ipfs/QmQxzyTr9SdQBKNZkuHtYvUonAvHAALGptVuDgL2NQsR9J"
+			]
+		},
+		"contracts/Nft smart contract/Roles.sol": {
+			"keccak256": "0xdfe6fa229325b1a01956b6dada8cf3bfb42c9d327df2adb6569f5e82dd34d632",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c971460a8c1a898ff3d72339aa9e4ae99a3e1b7f58e00d10a75127667b08601f",
+				"dweb:/ipfs/QmXgUDnAWy6ShspQX5gYek5eJuGmetqbuiG49D298Wx31Z"
+			]
+		}
+	},
+	"version": 1
+}
